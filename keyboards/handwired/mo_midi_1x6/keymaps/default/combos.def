@@ -1,0 +1,4 @@
+// This one is for a reset
+
+COMB(toToms,    TO(_TOMS),     SNARE, CRASH_LEFT)
+COMB(toBasic,   TO(_BASIC),    RIDE, CRASH_RIGHT)
