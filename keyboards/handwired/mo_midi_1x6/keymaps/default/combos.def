@@ -1,4 +1,5 @@
 // This one is for a reset
 
+COMB(toMidi,    TO(_BASIC),   KC_E, KC_F)
 COMB(toToms,    TO(_TOMS),     SNARE, CRASH_LEFT)
-COMB(toBasic,   TO(_BASIC),    RIDE, CRASH_RIGHT)
+COMB(toLetter,  TO(_LETTER),   RIDE, CRASH_RIGHT)

@@ -14,9 +14,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include QMK_KEYBOARD_H
+#include "muse.h"
 
 // Defines names for use in layer keycodes and the keymap
 typedef enum _layer_names {
+    _LETTER = 0,
     _BASIC,
     _TOMS,
     _LAYER_COUNT
@@ -42,6 +44,9 @@ typedef enum _layer_names {
 
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+    [_LETTER] = LAYOUT(
+        KC_A, KC_B, KC_C, KC_D, KC_E, KC_F
+    ),
     /* Basic three-piece trap set (hi-hat, kick, snare) */
     [_BASIC] = LAYOUT(
         HI_HAT_CLOSED, HI_HAT_HALF_OPEN, HI_HAT_PEDAL, KICK, SNARE, CRASH_LEFT
