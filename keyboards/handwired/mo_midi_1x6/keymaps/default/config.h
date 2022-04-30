@@ -2,6 +2,7 @@
 
 #define COMBO_TERM 50
 #define MIDI_BASIC
+#define MIDI_ADVANCED
 
 #define SEQUENCER_STEPS 32
 #define SEQUENCER_TRACKS 6
